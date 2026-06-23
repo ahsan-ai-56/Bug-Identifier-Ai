@@ -6,7 +6,12 @@ export function Nav({ active }) {
   return (
     <>
       <nav className="nav">
-        <Link href="/" className="nav-logo">🐛 Bug<span className="ac">Identifier</span></Link>
+        <Link href="/" className="nav-logo"><Image
+    src="/favicon-new.png"
+    alt="Bug Identifier"
+    width={32}
+    height={32}
+  /> Bug<span className="ac">Identifier</span></Link>
         <ul className="nav-links">
           <li><Link href="/" className={active === "/" ? "on" : ""}>Home</Link></li>
           <li><Link href="/insect-bite-identifier" className={active === "bite" ? "on" : ""}>Bite ID</Link></li>
