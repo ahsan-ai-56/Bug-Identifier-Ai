@@ -29,7 +29,7 @@ export default function Page() {
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Butterfly Identifier"}]} />
 
       <section className="hero page-hero">
-        <div className="hero-bg" style={{ backgroundImage: "url('/but.jpg')" }} />
+        <div className="hero-bg" style={{ backgroundImage: "url('/but.jpeg')" }} />
         <div className="hero-overlay" style={{ background: "linear-gradient(160deg,rgba(88,28,135,.93) 0%,rgba(5,5,5,.80) 100%)" }} />
         <div className="hero-content">
           <div className="hero-badge bg-purple">🦋 Free AI Butterfly Identifier</div>
@@ -49,7 +49,7 @@ export default function Page() {
         <div className="container prose">
           <h2>How to Use the Butterfly Identifier</h2>
           <p>Using our free Butterfly Identifier is simple: upload a clear photo of the butterfly, click Identify, and receive a complete detailed report within seconds. Our AI model analyzes dozens of visual features to deliver reliable identifications across hundreds of species worldwide.</p>
-          <img src="/but.jpg" alt="Butterfly identification using AI" className="prose-img" />
+          <img src="/but.jpeg" alt="Butterfly identification using AI" className="prose-img" />
           <p>For best results, photograph the butterfly from above or to the side in natural daylight. Make sure the subject fills most of the frame and is in sharp focus. The AI performs best when the full body of the butterfly is visible in the photo.</p>
           <h2>Why Identifying Butterflies Matters</h2>
           <p>Accurate butterfly identification helps you understand whether the specimen poses any risk to your health or property, whether it is beneficial and worth protecting, or whether it requires pest control intervention. Our tool gives you expert-level answers instantly and completely free.</p>
