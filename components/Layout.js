@@ -8,7 +8,7 @@ export function Nav({ active }) {
       <nav className="nav">
        <Link href="/" className="nav-logo">
   <img
-    src="/favicon-new.png"
+    src="/favicon2.png"
     alt="Bug Identifier"
     width="32"
     height="32"
@@ -17,7 +17,7 @@ export function Nav({ active }) {
 </Link>
         <ul className="nav-links">
           <li><Link href="/" className={active === "/" ? "on" : ""}>Home</Link></li>
-          <li><Link href="/insect-bite-identifier" className={active === "bite" ? "on" : ""}>Bite ID</Link></li>
+          <li><Link href="/insect-bite-identifier" className={active === "bite" ? "on" : ""}>Insect Bite</Link></li>
           <li><Link href="/spider-identifier" className={active === "spider" ? "on" : ""}>Spider</Link></li>
           <li><Link href="/butterfly-identifier" className={active === "butterfly" ? "on" : ""}>Butterfly</Link></li>
           <li><Link href="/mosquito-identifier" className={active === "mosquito" ? "on" : ""}>Mosquito</Link></li>
