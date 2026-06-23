@@ -49,7 +49,7 @@ export default function Page() {
         <div className="container prose">
           <h2>How to Use the Ant Identifier</h2>
           <p>Using our free Ant Identifier is simple: upload a clear photo of the ant, click Identify, and receive a complete detailed report within seconds. Our AI model analyzes dozens of visual features to deliver reliable identifications across hundreds of species worldwide.</p>
-          <img src="https://images.unsplash.com/photo-1563459802257-2a97df940f11?w=1600&q=80" alt="Ant identification using AI" className="prose-img" />
+          <img src="/all.jpeg" alt="Ant identification using AI" className="prose-img" />
           <p>For best results, photograph the ant from above or to the side in natural daylight. Make sure the subject fills most of the frame and is in sharp focus. The AI performs best when the full body of the ant is visible in the photo.</p>
           <h2>Why Identifying Ants Matters</h2>
           <p>Accurate ant identification helps you understand whether the specimen poses any risk to your health or property, whether it is beneficial and worth protecting, or whether it requires pest control intervention. Our tool gives you expert-level answers instantly and completely free.</p>
