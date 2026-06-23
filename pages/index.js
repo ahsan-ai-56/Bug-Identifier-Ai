@@ -109,7 +109,7 @@ export default function Home() {
           </div>
           <div className="grid-3">
             {[
-              { step: "Step 1", icon: "📸", title: "Upload a Clear Picture", desc: "Take a photo of the insect or upload an existing image from your device. JPG, PNG and WEBP formats supported up to 10MB. For best results, use a close-up in natural daylight.", img: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&q=80" },
+              { step: "Step 1", icon: "📸", title: "Upload a Clear Picture", desc: "Take a photo of the insect or upload an existing image from your device. JPG, PNG and WEBP formats supported up to 10MB. For best results, use a close-up in natural daylight.", img: "/images.jpg" },
               { step: "Step 2", icon: "🤖", title: "AI Analyzes the Image", desc: "Our smart AI system examines the shape, colors, patterns, wing structure, antenna type, body segmentation, and dozens of other features of the insect simultaneously.", img: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&q=80" },
               { step: "Step 3", icon: "📋", title: "Get Instant Results", desc: "Receive the insect name along with scientific classification, physical characteristics, habitat, diet, danger level, geographic range, fun facts, and prevention tips.", img: "/result.png" },
             ].map(s => (
@@ -191,7 +191,7 @@ export default function Home() {
         <div className="container">
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem", alignItems: "center" }}>
             <div>
-              <img src="https://images.unsplash.com/photo-1563459802257-2a97df940f11?w=700&q=80" alt="Various insects identified by AI" style={{ width: "100%", borderRadius: 20, objectFit: "cover", height: 420, boxShadow: "0 20px 60px rgba(0,0,0,.1)" }} />
+              <img src="/insects.jpg" alt="Various insects identified by AI" style={{ width: "100%", borderRadius: 20, objectFit: "cover", height: 420, boxShadow: "0 20px 60px rgba(0,0,0,.1)" }} />
             </div>
             <div>
               <h2 style={{ fontFamily: "Syne,sans-serif", fontSize: "clamp(1.6rem,3vw,2.2rem)", fontWeight: 800, color: "#1e293b", letterSpacing: "-.02em", marginBottom: "1rem" }}>What Insects Can You Identify?</h2>
