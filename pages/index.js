@@ -262,7 +262,7 @@ export default function Home() {
 
           <h2>Why Accurate Insect Identification Matters for Safety</h2>
           <p>Correctly identifying an insect can literally be the difference between life and death in extreme cases. Venomous spiders like the <Link href="/spider-identifier">Black Widow and Brown Recluse</Link> are often mistaken for completely harmless species. <Link href="/tick-identifier">Ticks carrying Lyme disease</Link> look nearly identical to harmless varieties. Fire ant stings can trigger life-threatening anaphylaxis in sensitive individuals. <Link href="/mosquito-identifier">Disease-carrying mosquitoes</Link> like Aedes aegypti, which transmits dengue fever, Zika, and chikungunya, are visually similar to harmless Culex mosquitoes.</p>
-          <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&q=80" alt="Mosquito identification and disease prevention" className="prose-img" />
+          <img src="/lll.jpg" alt="Mosquito identification and disease prevention" className="prose-img" />
 
           <h2>Bug Identification for Gardeners and Homeowners</h2>
           <p>For homeowners, identifying <Link href="/beetle-identifier">wood-boring beetles</Link> or <Link href="/ant-identifier">carpenter ants</Link> early can prevent thousands of dollars in structural damage. Termites alone cause an estimated $5 billion in property damage annually in the United States. For gardeners, knowing which <Link href="/caterpillar-identifier">caterpillars</Link> will become beneficial butterflies prevents inadvertent pesticide harm to pollinator species that are vital for food production.</p>
