@@ -27,7 +27,7 @@ export default function About() {
         <div className="container prose">
           <h2>Who We Are</h2>
           <p>BugIdentifier.ai is a free AI-powered insect identification platform built to help everyday people understand the insects they encounter in their daily lives. Whether you are a homeowner concerned about a potential pest infestation, a gardener trying to protect beneficial insects, a hiker who just received a mysterious bite, a student studying entomology, or simply a curious nature lover — our 12 specialized AI tools are built for you.</p>
-          <img src="https://images.unsplash.com/photo-1504700610630-ac6aba3536d3?w=900&q=80" alt="Beautiful butterfly identified by BugIdentifier AI" className="prose-img" />
+          <img src="/about.jpg" alt="Beautiful butterfly identified by BugIdentifier AI" className="prose-img" />
           <p>We believe that understanding the natural world should not require expensive apps, specialist knowledge, or university degrees. With modern AI vision technology, we can now provide the same quality of identification that once required a trained entomologist — instantly, from your smartphone, completely free of charge.</p>
 
           <h2>Our Mission</h2>
