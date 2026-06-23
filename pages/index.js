@@ -180,7 +180,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <img src="/images.jpg" alt="Butterfly being identified by AI" style={{ width: "100%", borderRadius: 20, objectFit: "cover", height: 480, boxShadow: "0 20px 60px rgba(0,0,0,.12)" }} />
+              <img src="/girl.jpg" alt="Butterfly being identified by AI" style={{ width: "100%", borderRadius: 20, objectFit: "cover", height: 480, boxShadow: "0 20px 60px rgba(0,0,0,.12)" }} />
             </div>
           </div>
         </div>
