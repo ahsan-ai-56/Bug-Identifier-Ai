@@ -57,7 +57,7 @@ export default function Home() {
 
       {/* HERO with background image */}
       <section className="hero" style={{ minHeight: "95vh" }}>
-        <div className="hero-bg" style={{ backgroundImage: "url('butterfly.jpg')" }} />
+        <div className="hero-bg" style={{ backgroundImage: "url('butterfly.jpg')" , opacity: 0.5 }} />
         <div className="hero-overlay" style={{ background: "linear-gradient(160deg, rgba(10,46,26,.92) 0%, rgba(10,30,15,.85) 100%)" }} />
         <div className="hero-content">
           <div className="hero-badge bg-green">🤖 AI-Powered • 100% Free • No Signup Required</div>
