@@ -29,7 +29,7 @@ export default function Page() {
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Beetle Identifier"}]} />
 
       <section className="hero page-hero">
-        <div className="hero-bg" style={{ backgroundImage: "url(\'https://images.unsplash.com/photo-1550159930-40066082a4fc?w=1600&q=80\')" }} />
+        <div className="hero-bg" style={{ backgroundImage: "url(\'/bettle.jpg')" }} />
         <div className="hero-overlay" style={{ background: "linear-gradient(160deg,rgba(20,83,45,.93) 0%,rgba(5,5,5,.80) 100%)" }} />
         <div className="hero-content">
           <div className="hero-badge bg-green">🪲 Free AI Beetle Identifier</div>
