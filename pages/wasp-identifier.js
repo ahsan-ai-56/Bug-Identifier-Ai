@@ -67,17 +67,8 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="section sec-white">
-        <div className="container" style={{maxWidth:780}}>
-          <div className="sec-head"><h2>Frequently Asked Questions</h2><p>Common questions about our Wasp Identifier</p></div>
-          {FAQS.map((f,i)=>(
-            <div className="faq-q" onClick={()=>setOpenFaq(openFaq===i?null:i)}>
-  {}{}
-  <span>{openFaq===i?"▲":"▼"}</span>
-</div>
-              {openFaq===i && <div className="faq-a">{f.a}</div>}
-            </div>
-          ))}
+      <section className="section sec-white"> <div className="container" style={{maxWidth:780}}> <div className="sec-head"><h2>Frequently Asked Questions</h2><p>Common questions about our Wasp Identifier</p></div> {FAQS.map((f,i)=>( <div className="faq-item" key={i}> <div className="faq-q" onClick={()=>setOpenFaq(openFaq===i?null:i)}>{}{}<span>{openFaq===i?"▲":"▼"}</span></div> {openFaq===i && <div className="faq-a">{f.a}</div>} </div> ))}
+        
         </div>
       </section>
 
