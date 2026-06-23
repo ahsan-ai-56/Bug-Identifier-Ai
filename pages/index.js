@@ -111,7 +111,7 @@ export default function Home() {
             {[
               { step: "Step 1", icon: "📸", title: "Upload a Clear Picture", desc: "Take a photo of the insect or upload an existing image from your device. JPG, PNG and WEBP formats supported up to 10MB. For best results, use a close-up in natural daylight.", img: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&q=80" },
               { step: "Step 2", icon: "🤖", title: "AI Analyzes the Image", desc: "Our smart AI system examines the shape, colors, patterns, wing structure, antenna type, body segmentation, and dozens of other features of the insect simultaneously.", img: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&q=80" },
-              { step: "Step 3", icon: "📋", title: "Get Instant Results", desc: "Receive the insect name along with scientific classification, physical characteristics, habitat, diet, danger level, geographic range, fun facts, and prevention tips.", img: "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=400&q=80" },
+              { step: "Step 3", icon: "📋", title: "Get Instant Results", desc: "Receive the insect name along with scientific classification, physical characteristics, habitat, diet, danger level, geographic range, fun facts, and prevention tips.", img: "butterfly.jpg" },
             ].map(s => (
               <div className="step-card" key={s.step}>
                 <div className="step-num">{s.step.replace("Step ", "0")}</div>
