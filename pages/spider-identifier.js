@@ -29,7 +29,7 @@ export default function Page() {
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Spider Identifier"}]} />
 
       <section className="hero page-hero">
-        <div className="hero-bg" style={{ backgroundImage: "url(\'https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=1600&q=80\')" }} />
+        <div className="hero-bg" style={{ backgroundImage: "url(\'/spider.jpeg')" }} />
         <div className="hero-overlay" style={{ background: "linear-gradient(160deg,rgba(30,27,75,.93) 0%,rgba(5,5,5,.80) 100%)" }} />
         <div className="hero-content">
           <div className="hero-badge bg-purple">🕷️ Free AI Spider Identifier</div>
@@ -49,7 +49,7 @@ export default function Page() {
         <div className="container prose">
           <h2>How to Use the Spider Identifier</h2>
           <p>Using our free Spider Identifier is simple: upload a clear photo of the spider, click Identify, and receive a complete detailed report within seconds. Our AI model analyzes dozens of visual features to deliver reliable identifications across hundreds of species worldwide.</p>
-          <img src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=1600&q=80" alt="Spider identification using AI" className="prose-img" />
+          <img src="/spider.jpeg" alt="Spider identification using AI" className="prose-img" />
           <p>For best results, photograph the spider from above or to the side in natural daylight. Make sure the subject fills most of the frame and is in sharp focus. The AI performs best when the full body of the spider is visible in the photo.</p>
           <h2>Why Identifying Spiders Matters</h2>
           <p>Accurate spider identification helps you understand whether the specimen poses any risk to your health or property, whether it is beneficial and worth protecting, or whether it requires pest control intervention. Our tool gives you expert-level answers instantly and completely free.</p>
