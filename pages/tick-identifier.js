@@ -49,7 +49,7 @@ export default function Page() {
         <div className="container prose">
           <h2>How to Use the Tick Identifier</h2>
           <p>Using our free Tick Identifier is simple: upload a clear photo of the tick, click Identify, and receive a complete detailed report within seconds. Our AI model analyzes dozens of visual features to deliver reliable identifications across hundreds of species worldwide.</p>
-          <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80" alt="Tick identification using AI" className="prose-img" />
+          <img src="/tick.jpg" alt="Tick identification using AI" className="prose-img" />
           <p>For best results, photograph the tick from above or to the side in natural daylight. Make sure the subject fills most of the frame and is in sharp focus. The AI performs best when the full body of the tick is visible in the photo.</p>
           <h2>Why Identifying Ticks Matters</h2>
           <p>Accurate tick identification helps you understand whether the specimen poses any risk to your health or property, whether it is beneficial and worth protecting, or whether it requires pest control intervention. Our tool gives you expert-level answers instantly and completely free.</p>
