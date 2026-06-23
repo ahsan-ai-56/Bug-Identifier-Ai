@@ -29,7 +29,7 @@ export default function Page() {
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Spider Identifier"}]} />
 
       <section className="hero page-hero">
-        <div className="hero-bg" style={{ backgroundImage: "url(\'/spider.jpeg')" }} />
+        <div className="hero-bg" style={{ backgroundImage: "url('/spider.jpeg')" }} />
         <div className="hero-overlay" style={{ background: "linear-gradient(160deg,rgba(30,27,75,.93) 0%,rgba(5,5,5,.80) 100%)" }} />
         <div className="hero-content">
           <div className="hero-badge bg-purple">🕷️ Free AI Spider Identifier</div>
