@@ -67,7 +67,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="section sec-cream">
+      <section className="section sec-white">
         <div className="container" style={{maxWidth:780}}>
           <div className="sec-head"><h2>Frequently Asked Questions</h2><p>Common questions about our Wasp Identifier</p></div>
           {FAQS.map((f,i)=>(
