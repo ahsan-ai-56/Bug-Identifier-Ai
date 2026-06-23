@@ -47,7 +47,7 @@ export default function BiteIdentifier() {
 
       {/* HERO */}
       <section className="hero page-hero">
-        <div className="hero-bg" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80')" }} />
+        <div className="hero-bg" style={{ backgroundImage: "url('/lll.jpg" }} />
         <div className="hero-overlay" style={{ background: "linear-gradient(160deg,rgba(26,5,5,.95) 0%,rgba(59,10,10,.88) 100%)" }} />
         <div className="hero-content">
           <div className="hero-badge bg-red">🩺 AI Bite Analysis • Educational Only</div>
@@ -111,7 +111,7 @@ export default function BiteIdentifier() {
         <div className="container prose">
           <h2>How to Identify Insect Bites and Stings</h2>
           <p>Identifying the source of a bite or sting quickly is essential — different insects require completely different treatment approaches. Most bites from <Link href="/mosquito-identifier">mosquitoes</Link>, <Link href="/ant-identifier">ants</Link>, and fleas are harmless and resolve within days. However, bites from <Link href="/spider-identifier">spiders</Link>, <Link href="/tick-identifier">ticks</Link>, and stings from bees or wasps may require prompt medical attention, especially in individuals who are allergic.</p>
-          <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=900&q=80" alt="Insect bite identification guide" className="prose-img" />
+          <img src="/asss.jpg" alt="Insect bite identification guide" className="prose-img" />
           <p>Key visual indicators our AI looks for include: the number and pattern of marks (single vs. clusters or rows), the shape and color of the welt, whether a stinger or tick remains embedded, and the appearance of the surrounding skin reaction. The more clearly you can photograph these features, the more accurate the identification will be.</p>
           <h2>When Is an Insect Bite a Medical Emergency?</h2>
           <p>Call emergency services immediately if you or someone nearby experiences difficulty breathing or swallowing, swelling of the face, lips, throat, or tongue, a rapid or irregular heartbeat, severe dizziness or fainting, a widespread rash or hives across the body, or loss of consciousness after a sting or bite. These symptoms indicate anaphylaxis — a potentially fatal allergic reaction that requires immediate epinephrine (EpiPen) treatment and emergency medical care.</p>
