@@ -44,8 +44,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bug Identifier – Free AI Insect Identification Tool | Identify Any Bug Instantly</title>
-        <meta name="description" content="Free AI-powered bug identifier. Upload a photo to instantly identify any insect, spider, beetle, butterfly, mosquito, or bug bite. Get species name, danger level, habitat, diet and more. No signup required." />
+        <title>Bug Identifier – Identify Insects and Bugs by Picture Online</title>
+        <meta name="description" content="Identify insects and bugs instantly with our free Bug Identifier tool. Upload a picture to recognize spiders, beetles, caterpillars, and other bugs with AI-powered identification." />
         <meta name="keywords" content="bug identifier, insect identifier, free bug identification, spider identifier, beetle identifier, butterfly identifier, mosquito identifier, insect bite identifier, what bug is this, identify insect by photo, bug identification app" />
         <meta property="og:title" content="Bug Identifier – Free AI Insect Identification Tool" />
         <meta property="og:description" content="Identify any bug, insect or bite from a photo instantly. Free AI tool covering 1M+ species." />
