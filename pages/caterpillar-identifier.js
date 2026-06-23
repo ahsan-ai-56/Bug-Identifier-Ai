@@ -29,7 +29,7 @@ export default function Page() {
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Caterpillar Identifier"}]} />
 
       <section className="hero page-hero">
-        <div className="hero-bg" style={{ backgroundImage: "url(\'https://images.unsplash.com/photo-1550159930-40066082a4fc?w=1600&q=80\')" }} />
+        <div className="hero-bg" style={{ backgroundImage: "url(/cater.jpg)" }} />
         <div className="hero-overlay" style={{ background: "linear-gradient(160deg,rgba(54,83,20,.93) 0%,rgba(5,5,5,.80) 100%)" }} />
         <div className="hero-content">
           <div className="hero-badge bg-green">🐛 Free AI Caterpillar Identifier</div>
@@ -49,7 +49,7 @@ export default function Page() {
         <div className="container prose">
           <h2>How to Use the Caterpillar Identifier</h2>
           <p>Using our free Caterpillar Identifier is simple: upload a clear photo of the caterpillar, click Identify, and receive a complete detailed report within seconds. Our AI model analyzes dozens of visual features to deliver reliable identifications across hundreds of species worldwide.</p>
-          <img src="https://images.unsplash.com/photo-1550159930-40066082a4fc?w=1600&q=80" alt="Caterpillar identification using AI" className="prose-img" />
+          <img src="/cater.jpg" alt="Caterpillar identification using AI" className="prose-img" />
           <p>For best results, photograph the caterpillar from above or to the side in natural daylight. Make sure the subject fills most of the frame and is in sharp focus. The AI performs best when the full body of the caterpillar is visible in the photo.</p>
           <h2>Why Identifying Caterpillars Matters</h2>
           <p>Accurate caterpillar identification helps you understand whether the specimen poses any risk to your health or property, whether it is beneficial and worth protecting, or whether it requires pest control intervention. Our tool gives you expert-level answers instantly and completely free.</p>
