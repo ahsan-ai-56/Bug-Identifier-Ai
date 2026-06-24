@@ -9,6 +9,7 @@ export default function About() {
         <title>About Us – BugIdentifier AI | Free Insect Identification</title>
         <meta name="description" content="Learn about BugIdentifier.ai — our mission to make insect identification free, accurate and accessible to everyone using advanced AI technology." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="https://bug-identifier.org/about" />
       </Head>
       <Nav active="about" />
       <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "About Us" }]} />
