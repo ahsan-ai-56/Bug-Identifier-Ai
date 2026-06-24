@@ -53,6 +53,170 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://bug-identifier.org" />
     <meta name="google-site-verification" content="c-hBDZ6r9me_2eqdKkOdhTGHuQVNVq2RDrjZnD4P-W4" />
+    {/* ===== SCHEMA MARKUP ===== */}
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://bug-identifier.org/#website",
+          "url": "https://bug-identifier.org",
+          "name": "Bug Identifier",
+          "description": "Free AI-powered insect identification tool. Identify any bug, insect or bite from a photo instantly.",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://bug-identifier.org/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://bug-identifier.org/#organization",
+          "name": "Bug Identifier",
+          "url": "https://bug-identifier.org",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://bug-identifier.org/favicon2.png"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "url": "https://bug-identifier.org/contact"
+          }
+        },
+        {
+          "@type": "WebApplication",
+          "@id": "https://bug-identifier.org/#app",
+          "name": "Bug Identifier AI",
+          "url": "https://bug-identifier.org",
+          "applicationCategory": "UtilitiesApplication",
+          "operatingSystem": "Web Browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "description": "Upload a photo of any bug or insect and get instant AI-powered identification with species name, danger level, habitat, diet, and prevention tips.",
+          "featureList": [
+            "1M+ insect species covered",
+            "98% identification accuracy",
+            "Results in under 5 seconds",
+            "No signup required",
+            "12 specialized AI tools"
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bug-identifier.org/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How accurate is Bug Identifier AI?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our AI achieves 90–98% accuracy on clear, well-lit close-up photos. The system analyzes dozens of visual features simultaneously including color patterns, body structure, wing venation, antenna shape, and relative proportions to deliver highly accurate results."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Bug Identifier completely free?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, all 12 tools on BugIdentifier.ai are completely free forever. No signup required, no subscription fees, no hidden costs. Simply upload a photo and get instant, detailed results."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What image formats are supported?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We support JPG, JPEG, PNG, and WEBP image formats up to 10MB. For best results, use close-up photos taken in natural daylight where the insect is clearly visible and in sharp focus."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can it identify dangerous or venomous insects?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Every identification includes a danger level rating from Harmless to Dangerous, along with specific safety information about venom, bites, stings, disease transmission, and when to seek medical attention."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does it work for insect bites on skin?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! Use our dedicated Insect Bite Identifier tool to upload a photo of a bite or sting. It identifies the likely cause, provides detailed first aid steps, lists symptoms, and tells you exactly when to seek medical attention."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does it identify spiders and arachnids?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our Spider Identifier tool covers 48,000+ spider species including dangerous ones like Black Widows, Brown Recluses, and Funnel-web spiders. Every result includes venom information and bite first aid."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I get the best identification results?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Take a clear, focused close-up photo in good natural lighting. Make sure the insect fills most of the frame and is in sharp focus. Include the full body of the insect if possible. Avoid blurry, dark, or heavily edited images."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can it help with pest control decisions?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Our results include prevention and control tips specific to each species, helping you understand whether professional pest control is needed, whether the insect is actually beneficial, and how to safely manage it."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "HowTo",
+          "@id": "https://bug-identifier.org/#howto",
+          "name": "How to Identify a Bug or Insect Using AI",
+          "description": "Use AI to instantly identify any bug, insect, or spider from a photo",
+          "totalTime": "PT5S",
+          "supply": [
+            { "@type": "HowToSupply", "name": "A photo of the insect (JPG, PNG, or WEBP)" }
+          ],
+          "tool": [
+            { "@type": "HowToTool", "name": "Bug Identifier AI Tool" }
+          ],
+          "step": [
+            {
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Upload a Clear Picture",
+              "text": "Take a photo of the insect or upload an existing image from your device. JPG, PNG and WEBP formats supported up to 10MB. For best results, use a close-up in natural daylight.",
+              "image": "https://bug-identifier.org/alll.jpg"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "AI Analyzes the Image",
+              "text": "Our smart AI system examines the shape, colors, patterns, wing structure, antenna type, body segmentation, and dozens of other features of the insect simultaneously."
+            },
+            {
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Get Instant Results",
+              "text": "Receive the insect name along with scientific classification, physical characteristics, habitat, diet, danger level, geographic range, fun facts, and prevention tips.",
+              "image": "https://bug-identifier.org/result.png"
+            }
+          ]
+        }
+      ]
+    })
+  }}
+/>
     </Head>
       <Nav active="/" />
 
