@@ -23,7 +23,7 @@ export default function Page() {
         <meta property="og:title" content="Butterfly Identifier – Free AI Tool | BugIdentifier" />
         <meta property="og:description" content="Identify butterfly species by wing patterns, colors, and markings. Discover migration patterns, lifecycle, and conservation status." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.bug-identifier.org/butterfly-identifier" />
+        <link rel="canonical" href="https://bug-identifier.org/butterfly-identifier" />
       </Head>
       <Nav active="butterfly" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Butterfly Identifier"}]} />
