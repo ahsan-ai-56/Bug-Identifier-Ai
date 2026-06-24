@@ -23,7 +23,7 @@ export default function Page() {
         <meta property="og:title" content="Mosquito Identifier – Free AI Tool | BugIdentifier" />
         <meta property="og:description" content="Identify mosquito species. Know which carry dengue fever, malaria, Zika virus, or West Nile virus and how to protect yourself and your family." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.bug-identifier.org/mosquito-identifier" />
+        <link rel="canonical" href="https://bug-identifier.org/mosquito-identifier" />
       </Head>
       <Nav active="mosquito" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Mosquito Identifier"}]} />
