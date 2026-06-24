@@ -23,7 +23,7 @@ export default function Page() {
         <meta property="og:title" content="Moth Identifier – Free AI Tool | BugIdentifier" />
         <meta property="og:description" content="Identify moth species from nocturnal insects worldwide. Learn about which moths damage clothing, crops, or are rare and protected species." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.bug-identifier.org/moth-identifier" />
+        <link rel="canonical" href="https://bug-identifier.org/moth-identifier" />
       </Head>
       <Nav active="moth" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Moth Identifier"}]} />
