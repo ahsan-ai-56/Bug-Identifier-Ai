@@ -40,7 +40,7 @@ export default function BiteIdentifier() {
         <meta property="og:title" content="Insect Bite Identifier – Free AI Tool | BugIdentifier" />
         <meta property="og:description" content="Identify insect bites and stings from photos. Get symptoms, first aid, and danger level instantly." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.bug-identifier.org/insect-bite-identifier" />
+        <link rel="canonical" href="https://bug-identifier.org/insect-bite-identifier" />
       </Head>
       <Nav active="bite" />
       <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Insect Bite Identifier" }]} />
