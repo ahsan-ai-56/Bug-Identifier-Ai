@@ -23,7 +23,7 @@ export default function Page() {
         <meta property="og:title" content="Spider Identifier – Free AI Tool | BugIdentifier" />
         <meta property="og:description" content="Identify any spider species instantly. Know if it is venomous, where it lives, and what to do if bitten. Covering 48,000+ spider species worldwide." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://bugidentifier.ai/spider-identifier" />
+        <link rel="canonical" href="https://www.bug-identifier.org/spider-identifier" />
       </Head>
       <Nav active="spider" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Spider Identifier"}]} />
