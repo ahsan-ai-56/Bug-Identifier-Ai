@@ -23,7 +23,7 @@ export default function Page() {
         <meta property="og:title" content="Ant Identifier – Free AI Tool | BugIdentifier" />
         <meta property="og:description" content="Identify ant species instantly. Find out if ants bite, sting, damage wood, or farm your garden — and how to deal with them safely." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.bug-identifier.org//ant-identifier" />
+        <link rel="canonical" href="https://bug-identifier.org//ant-identifier" />
       </Head>
       <Nav active="ant" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Ant Identifier"}]} />
