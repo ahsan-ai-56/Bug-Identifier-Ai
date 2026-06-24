@@ -23,7 +23,7 @@ export default function Page() {
         <meta property="og:title" content="Caterpillar Identifier – Free AI Tool | BugIdentifier" />
         <meta property="og:description" content="Identify caterpillar species and know which are toxic to touch, which become beautiful butterflies, and which damage your crops." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.bug-identifier.org/caterpillar-identifier" />
+        <link rel="canonical" href="https://bug-identifier.org/caterpillar-identifier" />
       </Head>
       <Nav active="caterpillar" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Caterpillar Identifier"}]} />
