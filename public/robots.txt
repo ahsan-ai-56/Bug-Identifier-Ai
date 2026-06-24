@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.bug-identifier.org/sitemap.xml
+Sitemap: https://bug-identifier.org/sitemap.xml
