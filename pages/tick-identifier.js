@@ -23,7 +23,7 @@ export default function Page() {
         <meta property="og:title" content="Tick Identifier – Free AI Tool | BugIdentifier" />
         <meta property="og:description" content="Identify tick species and assess Lyme disease, Rocky Mountain Spotted Fever, and other tick-borne disease transmission risks instantly." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://bugidentifier.ai/tick-identifier" />
+        <link rel="canonical" href="https://www.bug-identifier.org/tick-identifier" />
       </Head>
       <Nav active="tick" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Tick Identifier"}]} />
