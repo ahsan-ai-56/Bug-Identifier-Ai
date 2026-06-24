@@ -52,6 +52,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://bug-identifier.org" />
+    <meta name="google-site-verification" content="c-hBDZ6r9me_2eqdKkOdhTGHuQVNVq2RDrjZnD4P-W4" />
     </Head>
       <Nav active="/" />
 
