@@ -23,7 +23,7 @@ export default function Page() {
         <meta property="og:title" content="Bee Identifier – Free AI Tool | BugIdentifier" />
         <meta property="og:description" content="Identify bees, bumblebees, and honey bees. Learn about sting risk, their vital ecological role, and how to safely coexist." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.bug-identifier.org/bee-identifier" />
+        <link rel="canonical" href="https://bug-identifier.org/bee-identifier" />
       </Head>
       <Nav active="bee" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Bee Identifier"}]} />
