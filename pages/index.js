@@ -51,7 +51,8 @@ export default function Home() {
         <meta property="og:description" content="Identify any bug, insect or bite from a photo instantly. Free AI tool covering 1M+ species." />
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://bugidentifier.ai" />
+        <link rel="canonical" href="https://www.bug-identifier.org" />
+    <meta name="google-site-verification" content="FC80JiMC7ruu33KaM2dVUHVNtQhhrm5sOJyrm1r8vSA" />
       </Head>
       <Nav active="/" />
 
