@@ -23,7 +23,7 @@ export default function Page() {
         <meta property="og:title" content="Wasp Identifier – Free AI Tool | BugIdentifier" />
         <meta property="og:description" content="Identify wasps, hornets, and yellow jackets. Assess aggression levels, sting risk, and nest removal safety before taking action." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://bugidentifier.ai/wasp-identifier" />
+        <link rel="canonical" href="https://www.bug-identifier.org/wasp-identifier" />
       </Head>
       <Nav active="wasp" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Wasp Identifier"}]} />
