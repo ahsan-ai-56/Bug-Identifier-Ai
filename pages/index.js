@@ -52,8 +52,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://bug-identifier.org" />
-    <meta name="google-site-verification" content="FC80JiMC7ruu33KaM2dVUHVNtQhhrm5sOJyrm1r8vSA" />
-      </Head>
+    </Head>
       <Nav active="/" />
 
       {/* HERO with background image */}
