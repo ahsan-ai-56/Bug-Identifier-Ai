@@ -23,7 +23,7 @@ export default function Page() {
         <meta property="og:title" content="Fly Identifier – Free AI Tool | BugIdentifier" />
         <meta property="og:description" content="Identify flies, gnats, midges, and horseflies. Know if the fly carries disease, bites, or is simply a harmless nuisance." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.bug-identifier.org/fly-identifier" />
+        <link rel="canonical" href="https://bug-identifier.org/fly-identifier" />
       </Head>
       <Nav active="fly" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Fly Identifier"}]} />
