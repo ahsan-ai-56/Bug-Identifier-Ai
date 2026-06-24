@@ -23,7 +23,7 @@ export default function Page() {
         <meta property="og:title" content="Beetle Identifier – Free AI Tool | BugIdentifier" />
         <meta property="og:description" content="Identify any beetle species from 400,000+ known beetles worldwide. Learn if they harm plants or wood, or are completely beneficial." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://www.bug-identifier.org/beetle-identifier" />
+        <link rel="canonical" href="https://bug-identifier.org/beetle-identifier" />
       </Head>
       <Nav active="beetle" />
       <Breadcrumb items={[{label:"Home",href:"/"},{label:"Beetle Identifier"}]} />
