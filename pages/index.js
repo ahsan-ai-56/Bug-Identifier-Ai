@@ -48,10 +48,18 @@ export default function Home() {
         <meta name="description" content="Identify insects and bug bite instantly with our free Bug Identifier tool. Upload a picture to recognize spiders, beetles, caterpillars, and other bugs with AI-powered identification." />
         <meta name="keywords" content="bug identifier, insect identifier, free bug identification, spider identifier, beetle identifier, butterfly identifier, mosquito identifier, insect bite identifier, what bug is this, identify insect by photo, bug identification app" />
         <meta property="og:title" content="Bug Identifier – Free AI Insect Identification Tool" />
-        <meta property="og:description" content="Identify any bug, insect or bite from a photo instantly. Free AI tool covering 1M+ species." />
-        <meta property="og:type" content="website" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://bug-identifier.org" />
+<meta property="og:description" content="Identify any bug, insect or bite from a photo instantly. Free AI tool covering 1M+ species." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://bug-identifier.org" />
+<meta property="og:image" content="https://bug-identifier.org/og-image.jpg" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Bug Identifier – Free AI Insect Identification Tool" />
+<meta name="twitter:description" content="Identify any bug, insect or bite from a photo instantly." />
+<meta name="twitter:image" content="https://bug-identifier.org/og-image.jpg" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="canonical" href="https://bug-identifier.org" />
     <meta name="google-site-verification" content="c-hBDZ6r9me_2eqdKkOdhTGHuQVNVq2RDrjZnD4P-W4" />
     {/* ===== SCHEMA MARKUP ===== */}
 <script
