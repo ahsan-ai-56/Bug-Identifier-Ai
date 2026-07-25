@@ -52,6 +52,7 @@ export default function Home() {
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://bug-identifier.org" />
 <meta property="og:image" content="https://bug-identifier.org/og-image.jpg" />
+    <meta name="google-site-verification" content="FC80JiMC7ruu33KaM2dVUHVNtQhhrm5sOJyrm1r8vSA" />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Bug Identifier – Free AI Insect Identification Tool" />
