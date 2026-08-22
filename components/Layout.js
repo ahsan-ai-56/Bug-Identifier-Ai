@@ -5,6 +5,7 @@ import { useState } from "react";
 // Jab bhi naya tool add karo (roz ke 2 tools), bas yahan ek line add kar do —
 // Nav dropdown, mobile menu, aur RelatedTools sab yahan se khud update ho jayenge.
 export const ALL_TOOLS = [
+  { href: "/dog-worm-identifier", label: "Dog Worm Identifier", emoji: "🪱" },
   { href: "/insect-bite-identifier", label: "Insect Bite Identifier", emoji: "🩺" },
   { href: "/spider-identifier", label: "Spider Identifier", emoji: "🕷️" },
   { href: "/beetle-identifier", label: "Beetle Identifier", emoji: "🪲" },
