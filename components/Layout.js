@@ -6,6 +6,7 @@ import { useState } from "react";
 // Nav dropdown, mobile menu, aur RelatedTools sab yahan se khud update ho jayenge.
 export const ALL_TOOLS = [
   { href: "/crystal-identifier", label: "Crystal Identifier", emoji: "🕷️" },
+  { href: "/rock-identifier", label: "Rock Identifier", emoji: "🕷️" },
   { href: "/dog-worm-identifier", label: "Dog Worm Identifier", emoji: "🪱" },
   { href: "/insect-bite-identifier", label: "Insect Bite Identifier", emoji: "🩺" },
   { href: "/spider-identifier", label: "Spider Identifier", emoji: "🕷️" },
