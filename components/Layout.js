@@ -3,7 +3,7 @@ import { useState } from "react";
 
 // ⭐ Central list of every identifier tool on the site.
 // Jab bhi naya tool add karo (roz ke 2 tools), bas yahan ek line add kar do —
-// Nav dropdown, mobile menu, aur RelatedTools sab yahan se khud update ho jayenge.
+// Nav dropdown, mobile menu, aur RelatedTools sab yahan se khud update ho jayenge. 
 export const ALL_TOOLS = [
   { href: "/crystal-identifier", label: "Crystal Identifier", emoji: "🕷️" },
   { href: "/rock-identifier", label: "Rock Identifier", emoji: "🕷️" },
